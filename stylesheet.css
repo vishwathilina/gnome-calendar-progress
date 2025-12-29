@@ -1,0 +1,76 @@
+/* stylesheet.css
+ *
+ * Styles for Calendar Progress Bar Extension
+ */
+
+.calendar-progress-container {
+    padding: 6px 10px;
+}
+
+.progress-box {
+    /* horizontal spacing between label, bar and percent */
+    spacing: 6px;
+    y-align: center;
+}
+
+.progress-label {
+    font-weight: bold;
+    font-size: 11pt;
+    color: #eeeeee;
+    min-width: 45px;
+    y-align: center;
+}
+
+.progress-bar-container {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0;
+    padding: 0;
+    y-align: center;
+}
+
+.progress-bar-fill {
+    transition: width 0.3s ease-in-out;
+    y-align: center;
+}
+
+.day-fill {
+    /* Default color - overridden by settings */
+    background-color: #3daee9;
+}
+
+.year-fill {
+    /* Default color - overridden by settings */
+    background-color: #27ae60;
+}
+
+.progress-percent {
+    font-size: 10pt;
+    color: #cccccc;
+    min-width: 45px;
+    text-align: right;
+    y-align: center;
+}
+
+.progress-separator {
+    color: #999999;
+    y-align: center;
+}
+
+/* Hover effect */
+.calendar-progress-container:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+}
+
+/* Alternative compact layout styles */
+.calendar-progress-container.compact {
+    padding: 4px 8px;
+}
+
+.calendar-progress-container.compact .progress-label {
+    font-size: 10pt;
+}
+
+.calendar-progress-container.compact .progress-percent {
+    font-size: 9pt;
+}

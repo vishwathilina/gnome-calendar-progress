@@ -1,0 +1,20 @@
+{
+  "name": "Calendar Progress Bar",
+  "description": "Displays day and year progress bars with customizable styles in the GNOME Calendar panel",
+  "uuid": "calendar-progress@gnome-extensions",
+  "shell-version": [
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "version": 9,
+  "url": "https://github.com/yourusername/calendar-progress",
+  "settings-schema": "org.gnome.shell.extensions.calendar-progress"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.calendar-progress" path="/org/gnome/shell/extensions/calendar-progress/">
+    
+    <key name="bar-width" type="i">
+      <default>150</default>
+      <summary>Progress Bar Width</summary>
+      <description>Width of the progress bar in pixels</description>
+      <range min="50" max="300"/>
+    </key>
+    
+    <key name="bar-height" type="i">
+      <default>8</default>
+      <summary>Progress Bar Height</summary>
+      <description>Height of the progress bar in pixels</description>
+      <range min="4" max="30"/>
+    </key>
+    
+    <key name="border-radius" type="i">
+      <default>4</default>
+      <summary>Border Radius</summary>
+      <description>Border radius of the progress bar in pixels</description>
+      <range min="0" max="15"/>
+    </key>
+    
+    <key name="day-color" type="s">
+      <default>'rgba(61, 174, 233, 1)'</default>
+      <summary>Day Progress Color</summary>
+      <description>Color for the day progress bar</description>
+    </key>
+    
+    <key name="year-color" type="s">
+      <default>'rgba(39, 174, 96, 1)'</default>
+      <summary>Year Progress Color</summary>
+      <description>Color for the year progress bar</description>
+    </key>
+    
+    <key name="background-color" type="s">
+      <default>'rgba(50, 50, 50, 0.5)'</default>
+      <summary>Background Color</summary>
+      <description>Background color for the progress bars</description>
+    </key>
+    
+    <key name="show-labels" type="b">
+      <default>true</default>
+      <summary>Show Labels</summary>
+      <description>Display "Day:" and "Year:" labels before progress bars</description>
+    </key>
+    
+    <key name="show-day" type="b">
+      <default>true</default>
+      <summary>Show Day Progress</summary>
+      <description>Display the day progress bar</description>
+    </key>
+    
+    <key name="show-year" type="b">
+      <default>true</default>
+      <summary>Show Year Progress</summary>
+      <description>Display the year progress bar</description>
+    </key>
+    
+    <key name="panel-position" type="s">
+      <default>'right'</default>
+      <summary>Panel Position</summary>
+      <description>Position on the panel: left, center, or right</description>
+    </key>
+    
+    <key name="panel-index" type="i">
+      <default>0</default>
+      <summary>Panel Index</summary>
+      <description>Order position within the panel section</description>
+      <range min="-1" max="20"/>
+    </key>
+    
+  </schema>
+</schemalist>

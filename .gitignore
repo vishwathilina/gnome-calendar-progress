@@ -1,0 +1,10 @@
+# Build and packaging artifacts
+build/
+dist/
+*.zip
+*.tar.gz
+*.log
+*.map
+*~
+*.swp
+.DS_Store
