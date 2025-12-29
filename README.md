@@ -185,3 +185,4 @@ Created for GNOME Shell to provide an elegant way to track time progress through
 ---
 
 **Enjoy tracking your time! ⏰📊**
+# gnome-calender-progress
