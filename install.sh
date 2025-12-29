@@ -4,7 +4,7 @@
 
 set -e
 
-EXTENSION_UUID="calendar-progress@gnome-extensions"
+EXTENSION_UUID="calendar-progress@vishwathilina.github.io"
 EXTENSION_DIR="$HOME/.local/share/gnome-shell/extensions/$EXTENSION_UUID"
 
 echo "🚀 Installing Calendar Progress Bar Extension..."

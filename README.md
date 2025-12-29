@@ -36,7 +36,7 @@ A beautiful GNOME Shell extension that displays day and year progress bars in yo
 
 3. Compile the GSettings schema:
    ```bash
-   cd ~/.local/share/gnome-shell/extensions/calendar-progress@gnome-extensions
+   cd ~/.local/share/gnome-shell/extensions/calendar-progress@vishwathilina.github.io
    glib-compile-schemas schemas/
    ```
 
@@ -104,6 +104,7 @@ This extension is compatible with GNOME Shell versions:
 - 46
 - 47
 - 48
+ - 49
 
 ## File Structure
 
