@@ -31,7 +31,7 @@ A beautiful GNOME Shell extension that displays day and year progress bars in yo
 1. Clone or download this repository
 2. Copy the extension to your GNOME Shell extensions directory:
    ```bash
-   cp -r gnome-calender ~/.local/share/gnome-shell/extensions/calendar-progress@gnome-extensions
+   cp -r gnome-calender ~/.local/share/gnome-shell/extensions/calendar-progress@vishwathilina.github.io
    ```
 
 3. Compile the GSettings schema:
@@ -46,7 +46,7 @@ A beautiful GNOME Shell extension that displays day and year progress bars in yo
 
 5. Enable the extension:
    ```bash
-   gnome-extensions enable calendar-progress@gnome-extensions
+   gnome-extensions enable calendar-progress@vishwathilina.github.io
    ```
 
 ### Method 2: Using Extension Manager
@@ -62,7 +62,7 @@ A beautiful GNOME Shell extension that displays day and year progress bars in yo
 Open the extension preferences to customize:
 
 ```bash
-gnome-extensions prefs calendar-progress@gnome-extensions
+gnome-extensions prefs calendar-progress@vishwathilina.github.io
 ```
 
 Or use Extension Manager or GNOME Extensions app.
@@ -100,12 +100,10 @@ The progress bars update automatically every minute, showing:
 ## Compatibility
 
 This extension is compatible with GNOME Shell versions:
-- 40
-- 41
-- 42
-- 43
-- 44
 - 45
+- 46
+- 47
+- 48
 
 ## File Structure
 
@@ -186,3 +184,4 @@ Created for GNOME Shell to provide an elegant way to track time progress through
 
 **Enjoy tracking your time! ⏰📊**
 # gnome-calender-progress
+# gnome-calendar-progress
